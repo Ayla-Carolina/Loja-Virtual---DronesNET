@@ -1,0 +1,416 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+#container{
+  background-color: #ffff;
+  width: 980px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#container_2{
+  width: 970px;
+  margin: auto;
+ margin-top: auto;
+ padding-top: 30px;
+}
+
+
+#menu_superior{ /*primeiro menu*/
+background-color:#1B8E99 ;
+width: 980px;
+height: 45px;
+word-spacing: 1px;
+text-align: right;
+padding-top: 5px;
+padding-right: 6px;
+color: #ffff;
+font-family: Arial;
+font-size: 12px;
+}
+
+#menu_superior ul li{
+display: inline;
+padding: 20px;
+}
+
+
+#banner{
+  background-image: url(../Exec_FIAPON/img/banner.fw.png);
+  height: 352px;
+  width: 986px;
+  background-size: cover;
+}
+
+
+
+#menu_inferior{
+  background-color:#660000 ;
+  width: 980px;
+  height: 45px;
+  word-spacing: 1px;
+  padding-top: 5px;
+  padding-left: 6px;
+  color: #ffff;
+  font-family: Arial;
+  font-size: 12px;
+  
+}
+
+
+ul{
+  padding-left: 10px;
+  text-transform: uppercase;
+  word-wrap: inherit;
+}
+
+#menu_inferior ul li{
+  display: inline;
+  padding: 20px;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#titulo_1{
+  color: #660000;
+  border-bottom: 2px solid #660000;
+
+  font-size: x-large;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+
+#titulo_2{
+  color: #1C8E99;
+  border-bottom: 2px solid #1C8E99;
+  font-size: x-large;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+
+.caixa_azul, .caixa_vermelha{ 
+  width: 300px;
+  height: 278px;
+  margin: 10px;
+  margin-bottom: -25px;
+  margin-left: 5px;
+}
+
+.caixa_vermelha{
+  border: 2px solid #660000;
+}
+
+.caixa_colorida_vermelha, .caixa_colorida_azul{
+  width: 300px;
+  height: 96px;
+  margin: 10px;
+  margin-left: 5px;
+}
+
+.caixa_colorida_vermelha{
+  background-color: #660000;
+  border: 2px solid #660000;
+}
+
+.caixa_azul{
+  border: 2px solid #1B8E99;
+}
+
+.caixa_colorida_azul{
+  background-color: #1B8E99;
+  border: 2px solid #1B8E99;
+}
+
+#caixa_cinza{
+  background-color: #444444;
+  height: 17px;
+  margin: 10px;
+  margin-left: 5px;
+}
+ 
+.caixa_azul_2, .caixa_vermelha_2{
+  width: 300px;
+  height: 322px;
+  margin-left: 5px;
+  margin: 10px;
+}
+
+.caixa_vermelha_2{
+  border: 2px solid #660000;
+  border-bottom: 8px solid #660000;
+}
+
+.caixa_azul_2{
+  border: 2px solid #1B8E99;
+  border-bottom: 8px solid #1B8E99;
+
+}
+
+#rodape_azul{
+  background-color: #1B8E99;
+  height: 96px;
+}
+
+#rodape_vermelho{
+  background-color: #660000;
+  height: 26px;
+  margin-bottom: 20px;
+}
+
+#text-rodape-1{
+  color: #ffff;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  word-wrap: normal;
+  font-family: Tahoma;
+  text-align: justify;
+  padding-left: 215px;
+  padding-top: 17px;
+}
+
+#text-rodape-2{
+  color:#ffff ;
+  font-family: Tahoma;
+  font-size: 14px;
+  padding-left: 85%;
+}
+
+#menu_superior ul li:hover{
+ background-color: #92C9CE;
+ border: 1px solid transparent ;
+border-width: thick;
+/*deixa a animação/transição mais suave*/
+transform: scale(1.1);
+transition: all 0.2s;
+font-weight: bolder; /*deixa a fonte mais grossa com a animação*/
+
+
+}
+
+#menu_inferior ul li:hover{
+  background-color: #ffff;
+  color: #660000;
+  border: 1px solid transparent ;
+  border-width: thick;
+  transform: scale(1.1);
+ transition: all 0.2s;
+ font-weight: bolder;
+ 
+ }
+
+ /*------------------------------------------------------------------------------------
+ imagens ------------------------------------------------------------------------------*/
+
+.galeria-drones-tamanho{
+  width: 300px;
+  height: 150px;
+}
+
+.drone-1{
+  background: url(../Exec_FIAPON/img/galerias3.fw.png) top left no-repeat ;
+  width: 270px;
+  padding-top: 12px;
+  margin-left: 6px;
+}
+
+#text-drone-1{
+  color: #1B8D99;
+  font-family: Tahoma;
+  font-size: 13px;
+  padding-top: 140px;
+  padding-left: 6px;
+}
+
+#text-superior-caixa-1{
+  color:#1B8D99 ;
+  background-color: #4da7b136;
+  text-align: center;
+  padding-top: 3px;
+  padding: 5px;
+  margin: 4px;
+  font-size: 20px;
+}
+
+
+#text-inferior-1{ /*texto 8.000*/
+  color: #ffff;
+  font-family: tahoma;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+/*----------------------------------------------------------------------*/
+
+.drone-2{
+  background: url(../Exec_FIAPON/img/galerias3.fw.png) top no-repeat;
+  background-position: -300px;
+  width: 210px;
+  margin: 0px 45px;
+}
+
+#text-drone-2{
+  color: #660000;
+  font-family: Tahoma;
+  font-size: 13px;
+  padding-top: 155px;
+  margin-right: 20px;
+  
+}
+
+#text-superior-caixa-2{
+  color:#660000 ;
+  background-color: #66000027;
+  text-align: center;
+  padding-top: 3px;
+  padding: 5px;
+  margin: 4px;
+  font-size: 20px;
+}
+
+
+#text-inferior-2{ /*texto 8.000*/
+  color: #ffff;
+  font-family: tahoma;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+/*---------------------------------------------------------------*/
+
+.drone-3{
+  background: url(./img/galerias3.fw.png) top right no-repeat;
+  background-position: -540px;
+  width: 220px;
+  margin: 0px 40px;
+
+}
+
+
+#text-drone-3{
+  color: #1B8D99;
+  font-family: Tahoma;
+  font-size: 13px;
+  padding-top: 140px;
+  padding-left: 6px;
+}
+
+#text-superior-caixa-3{
+  color:#1B8D99 ;
+  background-color: #4da7b136;
+  text-align: center;
+  padding-top: 3px;
+  padding: 5px;
+  margin: 4px;
+  font-size: 20px;
+}
+
+
+#text-inferior-3{ /*texto 8.000*/
+  color: #ffff;
+  font-family: tahoma;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+
+.galeria-servicos-tamanho{
+  width: 300px;
+  height: 137px;
+}
+
+.servico-1{
+  background: url(../Exec_FIAPON/img/galerias2.fw.png) top left no-repeat;
+  
+}
+
+#titulo-galeria-1{
+  color: #660000;
+  font-family: tahoma;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bolder;  
+  padding-left: 10px;
+  margin-top: 4px;
+}
+
+#text-galeria-1{
+  color: #660000;
+  font-family: tahoma;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 10px;
+  word-spacing: 2px;
+}
+
+ .servico-2{
+  background: url(./img/galerias2.fw.png) top right no-repeat;
+  background-position-y: -137px;
+}
+
+.servico-3{
+  background: url(./img/galerias2.fw.png) top no-repeat;
+  background-position-y: -274px;
+} 
+
+
+
+#rodape-drone-1{
+  background: url(./img/galerias.fw.png) no-repeat;
+  background-position-y: -180px;
+  background-position-x: -20px;
+  width: 155px;
+  height: 47px;
+}
+
+#rodape-drone-2{
+  background: url(./img/galerias.fw.png) no-repeat;
+  background-position: -20px -180px;
+  width: 155px;
+  height: 47px;
+  margin-top: -47px;
+  margin-left: 446px;
+}
+
+
+#rodape-drone-3{
+  background: url(./img/galerias.fw.png) no-repeat;
+  background-position: -20px -180px ;
+  width: 285px;
+  height: 47px;
+  float: right;
+ margin-top: -48px;
+}  
+
+
+#personagem{
+  background: url(./img/galerias.fw.png) right no-repeat;
+  height: 227px;
+  width: 115px;
+  position: absolute;
+  right: -1%;
+  bottom: -152px;
+}
+
+#rodape-container{
+  margin-top: 30px;
+  align-content: baseline;
+  vertical-align: bottom;
+  position: relative;
+}
+
+#img-rodape-1{
+  background: url(./img/galerias.fw.png) center no-repeat;
+  height: 75px;
+  width: 140px;
+  background-position: -120px -82px;
+  float: left;
+  margin-top: -10px ;
+}
