@@ -9,6 +9,6 @@ Um Web Designer, renomado na área, criou um layout, aprovado pela diretoria, co
 
 
 ### Desafio
-- O desafio está em utilizar SPRITES, ou seja, as imagens a ser utilizadas no site estão todas agrupadas. O desafio, então, é trabalhar com esses sprites durante o desenvolvimento. 
+- O desafio está em utilizar SPRITES, ou seja, as imagens utilizadas no site estão todas agrupadas. O desafio, então, é trabalhar com esses sprites durante o desenvolvimento. 
 
 
